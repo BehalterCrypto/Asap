@@ -1,8 +1,22 @@
 {
-  "name":"asap-v2",
+  "name": "asap-v2",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev":"vite",
-    "build":"vite build"
-  }
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/android": "latest"
+  },
+  "devDependencies": {}
 }
