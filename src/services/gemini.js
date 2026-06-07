@@ -1,1 +1,1 @@
-h
+export async function askGemini(prompt){ return 'Implement Gemini here'; }
